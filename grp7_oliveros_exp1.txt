@@ -1,0 +1,45 @@
+# Create a simple program with your fullname, course, year and section 
+fullname = "Vivina B. Oliveros"
+course = "BSCS"
+year = 3
+section = "G"
+print(f"Hello, I'm {fullname}! {course} {year}{section}")
+
+print()
+# Python Comments
+#My first simple script
+print("Vivina Oliveros\n")
+
+# Create two variables
+number = 18          
+name = "Vivina"
+
+print("Number:", number)
+print("Name:", name)
+print()  
+
+# Create 4 variable names using the first names of group members
+member1 = "Mark"
+member2 = "Janelle"
+member3 = "Vivina"
+member4 = "Charlene"
+
+print("Group Members:")
+print(member1)
+print(member2)
+print(member3)
+print(member4)
+print()   
+
+#Assign values to multiple variables in one line
+name, age, course = "Vivina Oliveros", 22, "BSCS"
+
+print("Name:", name)
+print("Age:", age)
+print("Course:", course)
+print()  
+
+# Assign the same value to multiple variables
+cat = "I Love Cats!"
+orange = black = white = cat
+print(orange, black, white)
